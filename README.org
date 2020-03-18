@@ -1,0 +1,27 @@
+* emacs-modbus
+
+  Modbus support for Emacs
+
+** Goal
+
+   This software is intended to allow Emacs to communicate with Modbus slave
+   devices.
+   
+   There will be two layers; an API layer and a sample application that allows
+   Emacs to interact with Modbus devices.  The application will allow simple
+   setting and retrieving of values as well as sending arbitrary function
+   requests.
+   
+** Mod/what/?
+   
+   Modbus is a protocol created by Modicon to enable communication between
+   field devices and control devices in industrial applications.  The protocol
+   was opened and can be implemented license-free.  It is currently overseen
+   by the [[http://modbus.org][Modbus Organization]].
+   
+** Why?
+
+   I love Emacs and work with SCADA for a living.  That means I do weird
+   things, like write tank strapping generators in Common Lisp and fill my
+   Emacs lisp directory with functions that make working in Wonderware less
+   unpleasant.
